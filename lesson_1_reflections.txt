@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It pin-pointed the changes which were made, thus comparing the running
+    code(original) and buggy code(modified code), which gives an idea of where
+    the program broke.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I bug is discovered later on, the history will help to locate where and
+    how it happened, thus it won't happen again. Also, history help when in
+    future I don't remember how a feature was implemented.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of saving manually is that we can choose a logical save point which
+    in turn makes debugging and travelling through history easy. Whereas, the
+    con is that if we don't save for a long time, or at a logical point, this
+    feature won't be of any use.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Allowing to save multiple files is better than one file, as the logical save
+    point may have a number of files related to it.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log, it prints the entire history. And git diff gives the
+    difference between two files whose commit_id were entered.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By using version control, I will always have a working copy of the project.
+    So, if I break a feature then I can easily go to the past commits to check
+    for errors. Thus, making me more confident to make changes that could break
+    something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For version tracking ;)
