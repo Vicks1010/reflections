@@ -40,4 +40,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in separate branch is advisable when a change is not ready to
+    be deployed, i.e. not production ready. Thus, if a bug gets introduced or
+    the change has to be scrapped altogether, then making changes on separate
+    branch is a good practice. Where as changing master directly is advisable
+    when small changes are made, which do not require a separate branch , like
+    correcting typos.
